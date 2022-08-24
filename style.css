@@ -1,158 +1,246 @@
-body {
+body{
     padding: 0;
     margin: 0;
 }
-
-#nav {
+#nav{
     display: flex;
     flex-direction: column;
 }
 
-.icons {
+.icons{
     display: flex;
     margin-left: 5%;
     margin-top: 2%;
 }
-
-.icons i {
+.icons i{
     font-size: 20px;
     padding: 10px;
 }
-
-.title {
+.title{
     margin-left: 20%;
     font-family: 'Roboto Mono', monospace;
-
+    
 }
-
-.icons-two {
+.icons-two{
     margin-left: 30%;
 }
-
 .navbar-two {
-    margin-left: 35%;
-    margin-top: 2%;
+   margin-left: 35%;
+   margin-top: 2%;
 }
-
-.navbar-two a {
+.navbar-two a{
     text-decoration: none;
     margin-left: 10px;
     color: black;
 }
-
-.yellow {
+.yellow{
     margin-top: 3%;
     background-color: #ffdf00;
     height: 100px;
     width: 90%;
     margin-left: 5%;
 }
-
-.yellow h3 {
+.yellow h3  {
     text-align: center;
     padding-top: 10px;
 }
-
-.yellow p {
+.yellow p{
     text-align: center;
 }
-
-.grid-box {
+.grid-box{
     margin-top: 5%;
     margin-left: 5%;
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3,400px);
     grid-gap: 20px;
 }
-
-.text {
+.img-1{
+    height: 500px;
+    width:400px;
+}
+.text{
     margin-top: 10%;
     margin-left: 10%;
 }
-
-.text h3 {
+.text h3{
     font-family: 'Aboreto', cursive;
 }
-
-.text p {
+.text p{
     font-family: 'DynaPuff', cursive;
 }
-
-@media all and (min-width: 300px) {
-    .grid-box {
-        margin-top: 5%;
+@media all and (min-width: 300px){
+    .icons{
+        display: flex;
         margin-left: 5%;
-        display: grid;
-        grid-template-columns: repeat(1, 200px);
-        grid-gap: 10px;
+        margin-top: 5%;
+        width: 200%;
     }
-
-    .text {
-        margin-top: 10%;
-        margin-left: 25%;
-
-
+    .icons i{
+        font-size: 10px;
+        padding: 5px;
     }
-
-    .bar {
+    .icons input{
         display: none;
     }
-
-    .icons-two {
-        display: none;
+    .title{
+        margin-left: 7%;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .icons-three{
+        margin-left: 10%;
     }
 
-    .icons-three {
-        margin-left: 20%;
-    }
+    .navbar-two{
+        width:100%;
+        font-size: 12px;
+        margin-left: 2px;
 
-    .img-1 {
-        height: 300px;
-        width: 300px;
     }
-
-    .navbar-two {
-        margin-left: 2%;
-        margin-top: 2%;
-        width: 100%;
+    .navbar-two a{
+        margin-left: 5px;
+    }
+    .yellow{
+        margin-top: 3%;
+        background-color: #ffdf00;
+        height: 80px;
+        width: 80%;
+        margin-left: 5%;
+    }
+    .yellow h3  {
+        text-align: center;
+        padding-top: 10px;
         font-size: 12px;
     }
+    .yellow p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .grid-box{
+        margin-top: 5%;
+        margin-left: 15%;
+        display: grid;
+        grid-template-columns: repeat(1,100px);
+        grid-gap: 10px;
+    }
+    .text{
+        margin-top: 10%;
+        margin-left: 20%;
+        font-size: 10px;
+        width: 200%;
+    }
 
-    .text {
+    .img-1{
+    height: 300px;
+    width:200px;
+    }
+    .icons-two{
+        display: none;
+    }
+
+
+
+    
+}
+
+@media all and (min-width: 600px){
+    .icons{
+        display: flex;
+        margin-left: 5%;
+        margin-top: 2%;
+        width: 200%;
+    }
+    .icons i{
+        font-size: 20px;
+        padding: 5px;
+    }
+    
+    .title{
+        margin-left: 15%;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .icons-three{
+        margin-left: 15%;
+    }
+
+    .navbar-two{
+        
+        font-size: 15px;
+        margin-left: 25%;
+
+    }
+    .grid-box{
+        margin-top: 5%;
+        margin-left: 20%;
+        display: grid;
+        grid-template-columns: repeat(2,200px);
+        grid-gap: 10px;
+    }
+    .text{
+        margin-top: 10%;
+        margin-left: 0%;
+        font-size: 15px;
+        
+    }
+
+    .img-1{
+    height: 300px;
+    width:200px;
+    }
+    .icons-two{
+        display: none;
+    }
+}
+
+
+
+
+
+@media all and (min-width: 1200px){
+    .icons{
+        display: flex;
+        margin-left: 5%;
+        margin-top: 2%;
+        
+    }
+    .icons i{
+        font-size: 30px;
+        padding: 10px;
+    }
+    
+    .title{
+        margin-left: 15%;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 30px;
+    }
+    .icons-three{
+        margin-left: 15%;
+    }
+
+    .navbar-two{
+        
+        font-size: 25px;
+        margin-left: 30%;
+
+    }
+    .grid-box{
+        margin-top: 5%;
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: repeat(3,400px);
+        grid-gap: 30px;
+    }
+    .text{
+        margin-left: 10%;
+        margin-top: 10%;
         width: 100%;
+        font-size: 20px;
+        
     }
-}
 
-@media all and (min-width: 600px) {
-    .grid-box {
-        margin-top: 5%;
-        margin-left: 5%;
-        display: grid;
-        grid-template-columns: repeat(2, 400px);
-        grid-gap: 20px;
+    .img-1{
+    height: 500px;
+    width:400px;
     }
 
 }
-
-
-@media all and (min-width: 900px) {
-    .grid-box {
-        margin-top: 5%;
-        margin-left: 5%;
-        display: grid;
-        grid-template-columns: repeat(2, 400px);
-        grid-gap: 20px;
-    }
-
-}
-
-@media all and (min-width: 1200px) {
-    .grid-box {
-        margin-top: 5%;
-        margin-left: 5%;
-        display: grid;
-        grid-template-columns: repeat(3, 400px);
-        grid-gap: 20px;
-    }
-
-}
+   
