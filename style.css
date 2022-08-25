@@ -904,14 +904,8 @@ body{
         height: 100px;
         width: 90%;
         margin-left: 5%
-
+    }
 }
-
-    
-        
-
-
-
 
 @media all and (min-width: 1200px){
     .icons{
@@ -924,7 +918,7 @@ body{
         padding: 10px;
     }
     .title{
-        margin-left: 15%;
+        margin-left: 17%;
         font-family: 'Roboto Mono', monospace;
         font-size: 30px;
     }
@@ -935,7 +929,7 @@ body{
     .navbar-two{
         
         font-size: 25px;
-        margin-left: 30%;
+        margin-left: 35%;
     }
     .grid-box{
         margin-top: 5%;
@@ -948,7 +942,7 @@ body{
         margin-left: 10%;
         margin-top: 10%;
         width: 100%;
-        font-size: 20px;   
+        font-size: 25px;   
     }
 
     .img-1{
@@ -958,12 +952,174 @@ body{
     .yellow h3  {
         text-align: center;
         padding-top: 10px;
-        font-size: 20px;
+        font-size: 25px;
     }
     .yellow p{
         text-align: center;
+        font-size: 25px;
+    }
+    .center-place h3{
+        margin-left: 70%;
+        font-family: 'DynaPuff', cursive;
+        font-size: 30px;
+    }  
+    .sticky-grid{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        justify-content: space-between;
+    
+    }
+    .left{
+        margin-top: 2%;
+         display: grid;
+         grid-template-columns: repeat(2,300px);
+         grid-gap: 10px;
+         margin-left: 5%;
+      }
+    .right-images{
+        height: 700px;
+        width: 600px;
+        margin-left: 5%;
+        position: sticky;
+        top: 0;
+    }
+    .left-images{
+        height: 400px;
+        width: 300px;
+        margin-left: 15%;
+    }
+    .plans{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 12%;
+    }
+    .plans-image{
+        width: 500px;
+        height: 600px;
+    }
+    
+    .text-two{
+        height: 600px;
+        width: 500px;
+         background-color: antiquewhite;
+    }
+    .text-two h3{
+        text-align: center;
+        margin-top: 10%;
+        font-family: 'Aboreto', cursive;
+        font-size: 25px;
+      
+    }
+    .text-two p{
+        width: 70%;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-left: 15%;
+        font-family: 'DynaPuff', cursive;
+    }
+    .flex-one h3{
+        margin-top: 5%;
+        margin-left: 45%;
+        font-family: 'Aboreto', cursive;
+        font-size: 25px;
+      
+    }
+    .flex-two{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+         margin-top:5% ;
+    }
+    .flex-one p{
+        font-family: 'DynaPuff', cursive;
+        font-size: 25px;
+    
+    }
+    .flex-image{
+        width: 600px;
+        height: 700px;
+    }
+    .left-flex{
+        margin-left: 6%;
+    }
+    .right-flex{
+        margin-right: 4%;
+    }
+    .grid-three{
+        margin-top: 5%;
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: repeat(3,400px);
+        grid-gap: 20px;
+    }
+    .grid-image{
+        height: 500px;
+        width: 400px;
+    }
+    .grid-two h3{
+        font-size: 25px;
+        margin-left: 15%;
+    }
+    .footer{
+        height: 600px;
+        background-color: #ffdf00;
+        margin-top: 2%;
+    }
+    .footer-one{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 10%;
+       
+    }
+    .one-left p{
+        width: 80%;
+        font-family: 'DynaPuff', cursive;
+        font-size: 25px;
+    }
+    .one-left h3{
+        font-family: 'Aboreto', cursive;
+        font-size: 25px;
+    
+    }
+    .footer-two{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+    }
+
+    .footer-one li{
+        font-size:20px;
+    }
+    .footer-two li{
         font-size: 20px;
     }
+    .left-align h3{
+        font-size: 25px;
+    }
+    .yellow{
+        margin-top: 3%;
+        background-color: #ffdf00;
+        height: 100px;
+        width: 90%;
+        margin-left: 5%
+    }
+    .footer-icons{
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    .footer-icons i{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .footer{
+        height: 700px;
+        background-color: #ffdf00;
+        margin-top: 2%;
+    }
+    
 }
 
 
