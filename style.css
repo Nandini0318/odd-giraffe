@@ -185,7 +185,7 @@ body{
 .footer{
     height: 600px;
     background-color: #ffdf00;
-    margin-top: 2%
+    margin-top: 2%;
 }
 .footer-one{
     display: flex;
@@ -345,8 +345,169 @@ body{
     }
     .icons-two{
         display: none;
-    }   
+    } 
+    .center-place h3{
+        margin-left: 25%;
+        font-family: 'DynaPuff', cursive;
+        font-size: 15px;
+    }  
+    .sticky-grid{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        justify-content: space-between;
+    
+    }
+    .left{
+        margin-top: 2%;
+         display: grid;
+         grid-template-columns: repeat(1,200px);
+         grid-gap: 20px;
+         margin-left: 5%;
+      }
+    .right-images{
+        height: 200px;
+        width: 300px;
+        margin-left: 5%;
+    }
+    .left-images{
+        height: 300px;
+        width: 200px;
+        margin-left: 15%;
+    }
+    .plans{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .plans-image{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .text-two{
+    height: 300px;
+    width: 300px;
+    background-color: antiquewhite;
+    }
+    .text-two h3{
+        text-align: center;
+        margin-top: 10%;
+        font-family: 'Aboreto', cursive;
+        font-size: 15px;
+      
+    }
+    .text-two p{
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-family: 'DynaPuff', cursive;
+    }
+    .flex-one h3{
+        margin-top: 5%;
+        margin-left: 15%;
+        font-family: 'Aboreto', cursive;
+        font-size: 15px;
+      
+    }
+    .flex-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         margin-top:5% ;
+    }
+    .flex-one p{
+        font-family: 'DynaPuff', cursive;
+    
+    }
+    .flex-image{
+        width: 300px;
+        height: 200px;
+    }
+    .left-flex{
+        margin-left: 5%;
+    }
+    .right-flex{
+        margin-left: 5%;
+    }
+    .grid-three{
+        margin-top: 5%;
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: repeat(1,200px);
+        grid-gap: 20px;
+    }
+    .grid-image{
+        height: 200px;
+        width: 300px;
+    }
+    .footer-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 10%;
+    }
+    .one-left{
+        margin-left: 5%;
+    }
+    .one-left p{
+        width: 80%;
+        font-family: 'DynaPuff', cursive;
+        font-size: 10px;
+    }
+    .one-left h3{
+        font-family: 'Aboreto', cursive;
+        font-size: 10px;
+    
+    }
+    .right-one{
+        margin-left: 1%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .right-two{
+        padding-left: 1%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .right-three{
+        padding-left: 1%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-two{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .left-align h3{
+        margin-left: 2%;
+        font-size: 12px;
+    }
+    .left-align ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .footer-icons{
+        margin-left: 25%;
+        margin-top: 2%;
 }
+      
+    
+    
+
+        
+        
+        
+
+
 
 @media all and (min-width: 600px){
     .icons{
